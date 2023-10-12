@@ -46,3 +46,6 @@ You can also use capture groups in a Sound Notification to create a dynamic file
 have to have a dummy file that has the capture group values in the name so that the path can be read with the variables.
 But if you select a file with the name `$1.wav` for example you can then have other files in the same directory like
 `ranarr.wav` and `torstol.wav` to have unique sounds for different herb types.
+
+## Attribution
+This project uses the [JACo MP3 Player](http://jacomp3player.sourceforge.net) to play mp3 files. Its source can be found [here](https://sourceforge.net/p/jacomp3player/code/HEAD/tree/) and is licensed under LGPL which you can find [here](./ThirdPartyLicenses.txt) or otherwise [here](https://www.gnu.org/licenses/lgpl-3.0.en.html).
